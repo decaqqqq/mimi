@@ -50,8 +50,7 @@ vmess额外id：0
 传输协议：ws
 伪装类型：none
 伪装域名：xxx-xxx.prod-glb.koyeb.app
-路径：/24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vless
-vless使用(/自定义UUID码-vless)，vmess使用(/自定义UUID码-vmess)
+路径：/mimi
 底层传输安全：tls
 跳过证书验证：false
 ```
@@ -70,7 +69,7 @@ Trojan-go
     ],
     "websocket": {
         "enabled": true,
-        "path": "/24b4b1e1-7a89-45f6-858c-242cf53b5bdb-trojan",
+        "path": "/mimi",
         "host": "xxx-xxx.prod-glb.koyeb.app"
     }
 }
@@ -86,15 +85,3 @@ ShadowSocks
 插件程序：xray-plugin_windows_amd64.exe
 说明：需将插件 https://github.com/shadowsocks/xray-plugin/releases 下载解压后放至shadowsocks同目录
 插件选项: tls;host=xxx-xxx.prod-glb.koyeb.app;path=/24b4b1e1-7a89-45f6-858c-242cf53b5bdb-ss
-```
-
-## 注意
-
-请勿滥用本仓库
-
-## 赞助我们
-
-![afdian-MisakaNo.jpg](https://s2.loli.net/2021/12/25/SimocqwhVg89NQJ.jpg)
-
-## 交流群
-[Telegram](https://t.me/misakanetcn)
